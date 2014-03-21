@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>	Loteria</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <link href="css/loteria.css" rel="stylesheet">
+  
+  </head>
+  <body>
+		  <center>
+			<h1></h1>
+		  </center>
+        
+          <div>
+          <script language="JavaScript1.1">
+
+var specifyimage=new Array() 
+
+specifyimage[0]="img/barril.jpg"
+
+specifyimage[1]="img/gallo.jpg"
+
+specifyimage[2]="img/luna.jpg"
+
+specifyimage[3]="img/rana.png"
+
+specifyimage[4]="img/sandia.jpg"
+
+specifyimage[5]="img/balon.jpg"
+
+specifyimage[6]="img/palmera.jpg"
+
+specifyimage[7]="img/campana.jpg"
+
+specifyimage[8]="img/estrella.jpg"
+
+var delay=2000
+
+<!-- Counter for array  -->
+
+var count =1;
+
+var cubeimage=new Array()
+
+for (i=0;i<specifyimage.length;i++){
+
+cubeimage[i]=new Image()
+
+cubeimage[i].src=specifyimage[i]
+
+}
+
+function movecube(){
+
+if (window.createPopup)
+
+cube.filters[0].apply()
+
+document.images.cube.src=cubeimage[count].src;
+
+if (window.createPopup)
+
+cube.filters[0].play()
+
+count++;
+
+if (count==cubeimage.length)
+
+count=0;
+
+setTimeout("movecube()",delay)
+
+}
+
+window.onload=new Function("setTimeout('movecube()',delay)")
+
+</script><img src="img.jpg" name="cube" border="0" style="filter:progid:DXImageTransform.Microsoft.Stretch(stretchStyle=&#39;PUSH&#39;)" /> 
+</div>
+</center>
+
+    <center>
+      <div>
+	  
+			$('a').attr('href', 'allMyHrefsAreTheSameNow.html'); 
+          <img src="img/gallo.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 1">
+          <img src="img/luna.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 2">
+          <img src="img/barril.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 3">
+        </div>
+        <div>
+          <img src="img/campana.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 4">
+          <img src="img/catrin.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 5">
+          <img src="img/piano.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 6"> 
+        </div>
+        <div>
+          <img src="img/gallo.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 7">
+          <img src="img/luna.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 8">
+          <img src="img/sol.jpg" onclick="this.src='img/x.jpg'" height="100" alt=img 9">
+        </div>
+        </center>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/PagMain12Mar.js"></script>
+  </body>
+</html>
