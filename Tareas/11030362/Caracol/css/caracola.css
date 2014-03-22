@@ -1,0 +1,43 @@
+.color7{
+		background-color:LightSalmon;
+		text-align: center;
+		font-size:20px;
+}
+
+.color8{
+		background-color:Tomato;
+		text-align: center;
+		font-size:20px;
+}
+
+
+
+.color10{
+		background-color:#00FF7F;
+		text-align: center;
+		font-size:20px;
+}
+
+.color11{
+		background-color:lightGreen;
+		font-size:20px;
+}
+
+.color12{
+		background-color:MediumAquamarine;
+		font-size:20px;
+}
+
+
+#caracol_agropecuario{
+	position: absolute;
+	top:370px;
+	right:46%;
+}
+
+#id_pozo{
+	position: absolute;
+	z-index: -1;
+	top:60px;
+	right:39%;
+}
