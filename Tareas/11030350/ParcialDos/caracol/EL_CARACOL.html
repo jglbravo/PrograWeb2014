@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recorrido Csracol</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link  href="themes/alertify.core.css" rel="stylesheet"/>
+    <link  href="themes/alertify.default.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="lib/alertify.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     <link href="css/caracola.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid" id="tapete"> 
+	        <div class="row">
+                <div class="col-md-4">
+                            <form class="navbar-form navbar-left" role="search">
+                                <p class="bg-success">Profundidad pozo</p>
+                                <div class="form-group">
+                                    <input type="text"  id="caja_pozo" class="form-control caja" placeholder="metros" maxlength="3" size="5" required="required">
+                                </div>
+                            </form>
+
+                  
+
+                    
+                  
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!---->
+                        </div><!--METROS POZO-->
+                        <div class="col-md-12">
+                              
+                              <form class="navbar-form navbar-left" role="search">
+                              <p class="bg-success">Sube:</p>
+                              <div class="form-group">
+                              <input type="text" id="caja_sube" class="form-control" placeholder="metros" maxlength="3" size="5" required="required">
+                              </div>
+                              </form>
+
+
+                        </div><!--METROS SUBE-->
+                        <div class="col-md-12">
+                              <form class="navbar-form navbar-left" role="search">
+                              <p class="bg-success">Resbala</p>
+                              <div class="form-group">
+                              <input type="text" id="caja_resbala" class="form-control" placeholder="metros" maxlength="3" size="5" required="required">
+                              </div>
+                              </form>
+                        </div><!--METROS RESBALA-->
+                        <div class="col-md-12">
+                            <button type="button" class="btn btn-succes" id="btn_aceptar">
+                            ACEPTAR</button>
+                        </div><!--BOTON ACEPTAR-->
+                    </div>
+                </div>
+                <div <div class="col-md-4">
+                  <center><img src="" id="cambio_imag" height="200" alt=""></center>
+                </div><!--SOL Y LUNA-->
+                <div class="col-md-4">
+                  <center><h1><p class="bg-success">Dia</p></h1></center>
+                  <center><h2 id="dia_numero"><p>0</p></h2></center>
+                </div><!--CONTADOR DE DIAS-->
+                <div class="row" id="fondo">
+                    <div class="col-md-12" id="fondo">
+                      <center><img src="img/caracol.jpg" id="caracola_magica" height="80" alt="CARACOL">
+                      </center>
+                      <center><img src="img/pozo.jpg" id="pozo" height="400" alt="POZO">
+                      </center>
+                    </div>
+                </div><!--POZO Y CARACOL-->
+            </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/caracol.js"></script>
+
+
+  </body>
+</html>

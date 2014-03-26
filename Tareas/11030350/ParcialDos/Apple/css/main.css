@@ -1,0 +1,36 @@
+.color1{
+	background-color:#CD5C5C;
+}
+
+.color2 {
+	background-color:#FA8072;
+}
+
+
+.color3 {
+	
+	background-image: url(img/2.jpg);
+}
+
+h1{
+	font-size: 60px;
+	color: white;
+		
+}
+h2{
+	font-size: 25px;
+	color: white;
+}
+h3{
+	font-size: 10px;		
+}
+h4{
+	font-size: 20px;
+	color: white;
+}
+
+.back{
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	padding: 150px;
+}

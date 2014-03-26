@@ -1,0 +1,34 @@
+#caracola_magica{
+	position: absolute;
+	top:370px;
+	right:46%;
+}
+
+#pozo2{
+	position: absolute;
+	z-index: -1;
+	top:60px;
+	right:39%;
+}
+
+/*#fondo{
+	background-image: url(../img/CARACOL/fondo_nubes.jpg);
+	z-index: 1;
+	background-repeat: no-repeat;
+	padding: 50px;
+}*/
+
+
+
+
+
+/*.imagen_sol{
+	background-image: url(../img/CARACOL/sol.jpg);
+	height="20" alt="imagen_ferrari"
+	padding: 200px;
+}
+
+.imagen_luna{
+	background-image: url(../img/CARACOL/luna.jpg);
+	padding: 10px;
+}*/
