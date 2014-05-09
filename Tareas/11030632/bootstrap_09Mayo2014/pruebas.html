@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <!--codificación UTF-8-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/intento2.css" rel="stylesheet">
+    <!--<link href="css/bootstrap-responsive.min.css" rel="stylesheet">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!-- NAVBAR ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Recetario Magico</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tareas <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Practicas <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+    <!-- Carousel================================================== -->
+      <div class="container-fluid">
+        <div class="row">
+            <div id="carousel" class="carousel slide">
+                <!--Elementos del Carousel -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="img/Recetario.jpg" alt="">
+                    <div class="carousel-caption">
+                      <!-- Titulo -->
+                      <h4><p id="eti1">¿QUE HAGO DE COMER HOY?</p></h4>
+                      <!-- Descripcion -->
+                      <p id="eti">Accede totalmente gratis y te sorprenderas ;)!!!</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/sal.jpg" alt="">
+                    <div class="carousel-caption">
+                        <div class="container" >
+                          <form class="form-signin" role="form">
+                            <h2 class="form-signin-heading">Accesa Ya!!</h2>
+                            <input  class="form-control" placeholder="Usuario" required autofocus>
+                            <input type="password" class="form-control" placeholder="Contraseña" required>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+                          </form>
+                       </div> <!-- /container -->
+                      <!-- Titulo -->
+                      <h4>Second Thumbnail label</h4>
+                      <!-- Descripcion -->
+                      <p>No esperes más...Accesa Totalmente gratis</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/co.jpg" alt="">
+                    <div class="carousel-caption">
+                      <!-- Titulo -->
+                      <h4>Third Thumbnail label</h4>
+                      <!-- Descripcion -->
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div> 
+                </div>
+                <!-- Carousel nav 
+                <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>-->
+                 <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel" data-slide="prev">
+                      <span class="icon-prev"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel" data-slide="next">
+                      <span class="icon-next"></span>
+                    </a>
+               </div>
+          </div>
+        </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed --
+    <script src="http://code.jquery.com/jquery-latest.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+ 
+  </body>
+  </html>

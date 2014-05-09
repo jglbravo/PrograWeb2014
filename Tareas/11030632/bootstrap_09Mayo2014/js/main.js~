@@ -1,0 +1,26 @@
+$(document).ready(//define todas las funciones cuando el documento esta listo,completamente descargado
+          function(){//declaramos una funcion implicita
+                //$('img').hide(1000);
+               // $('img').click(
+                //	function(){
+                //		$(this).hide(1000);
+                //	});
+                $('#btn1').click(
+                	function(){
+                		$('img').show(1000);
+
+            $('img').hide(1000);
+               $('img').click(
+                  function(){ 
+                      var myVar=setInterval(function(){myTimer()},1000);
+                      function myTimer(2000){
+                               $(this).hide(1000);
+                                      }
+                      
+                  });
+                	});
+ 
+               
+          }
+);//llamada a metodos $
+//ayuda a tiempo de procesamiento del servidor,

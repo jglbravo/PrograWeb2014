@@ -1,0 +1,21 @@
+#formulario{
+	background-color: cyan;
+}
+
+#espacio{
+	/*background-colr: BLACK;*/
+	height: 500px;
+	width: 580px;
+}
+#formulario2{
+	background-color: cyan;
+}
+
+#espacio2{
+	height: 285px;
+	width: 1200px;
+}
+
+table{
+     background-color: gray;
+}
