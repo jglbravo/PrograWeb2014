@@ -1,0 +1,29 @@
+#hola{
+	background-image: url("../img/1.jpg");
+	height: 400px;
+	width: 1300px;
+}
+#holamario{
+	background-image: url("../img/gris.jpg");
+	
+}
+#hola2{
+	background-image: url("../img/verde.jpg");
+	
+}
+#hola3{
+	background-image: url("../img/blanco.jpg");
+	
+}
+#hola4{
+	background-image: url("../img/rosa.jpg");
+
+}
+
+.color1{
+	color:gray;
+}
+
+#boton{
+	background-color: black;
+}

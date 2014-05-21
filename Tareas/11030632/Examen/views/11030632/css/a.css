@@ -1,0 +1,28 @@
+#fondo{
+	background-image: url("../img/hoyo1.jpg");
+	height: 400px;
+	width: 535px;
+}
+.formulario{
+       background-color: black;
+}
+#caracol1{
+	margin-bottom: 300px;
+}
+
+#titulo{
+	background-color: cyan;
+}
+
+body{
+	background-color: black;
+}
+
+.color2{
+	background-color: cyan;
+}
+
+
+#color2{
+	background-color: cyan;
+}
